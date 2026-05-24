@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://o0sjdpolgxch"]
+
+[ext_resource type="PackedScene" uid="uid://e5r4wi3krnc" path="res://assets/models/dungeon/floor_large/floor_dirt_large.gltf" id="1_inty0"]
+[ext_resource type="PackedScene" uid="uid://ceah3hy1mu82r" path="res://assets/models/dungeon/floor_large/floor_dirt_large_rocky.gltf" id="2_igjjj"]
+[ext_resource type="PackedScene" uid="uid://8o80kyum4oh0" path="res://assets/models/dungeon/floor_large/floor_tile_big_grate.gltf" id="3_i4tdr"]
+[ext_resource type="PackedScene" uid="uid://dwyo8jk2vrv43" path="res://assets/models/dungeon/floor_large/floor_tile_big_grate_open.gltf" id="4_surym"]
+[ext_resource type="PackedScene" uid="uid://b7au4deywqmd8" path="res://assets/models/dungeon/floor_large/floor_tile_big_spikes.gltf" id="5_0gvu6"]
+[ext_resource type="PackedScene" uid="uid://chsrq5uwqu62n" path="res://assets/models/dungeon/floor_large/floor_tile_large.gltf" id="6_gohog"]
+[ext_resource type="PackedScene" uid="uid://cj70jn8c3mpow" path="res://assets/models/dungeon/floor_large/floor_tile_large_rocks.gltf" id="7_wyd6w"]
+[ext_resource type="PackedScene" uid="uid://cirufe3fx4jy5" path="res://assets/models/dungeon/floor_large/floor_wood_large.gltf" id="8_gurao"]
+[ext_resource type="PackedScene" uid="uid://ddlhwyfox4bmg" path="res://assets/models/dungeon/floor_large/floor_wood_large_dark.gltf" id="9_r80jr"]
+
+[node name="FloorMapLarge" type="Node3D" unique_id=2035080407]
+
+[node name="floor_dirt_large2" parent="." unique_id=2099808982 instance=ExtResource("1_inty0")]
+
+[node name="floor_dirt_large_rocky2" parent="." unique_id=617402719 instance=ExtResource("2_igjjj")]
+
+[node name="floor_tile_big_grate2" parent="." unique_id=1216593986 instance=ExtResource("3_i4tdr")]
+
+[node name="floor_tile_big_grate_open2" parent="." unique_id=1480944249 instance=ExtResource("4_surym")]
+
+[node name="floor_tile_big_spikes2" parent="." unique_id=668421492 instance=ExtResource("5_0gvu6")]
+
+[node name="floor_tile_large2" parent="." unique_id=1415544829 instance=ExtResource("6_gohog")]
+
+[node name="floor_tile_large_rocks2" parent="." unique_id=1511600889 instance=ExtResource("7_wyd6w")]
+
+[node name="floor_wood_large2" parent="." unique_id=257129167 instance=ExtResource("8_gurao")]
+
+[node name="floor_wood_large_dark2" parent="." unique_id=1529896726 instance=ExtResource("9_r80jr")]

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://rk8ft31iqtsf"]
+
+[ext_resource type="MeshLibrary" uid="uid://cc1t5m8teego" path="res://assets/mesh/libraries/floor_map_grate.meshlib" id="1_g8s0w"]
+
+[node name="GrateFloor" type="GridMap" unique_id=1743698561]
+mesh_library = ExtResource("1_g8s0w")
+cell_size = Vector3(1, 2, 1)
+cell_center_x = false
+cell_center_y = false

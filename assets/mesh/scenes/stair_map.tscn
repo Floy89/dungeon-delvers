@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://d3cyu2w0xh8rl"]
+
+[ext_resource type="PackedScene" uid="uid://bbcpqfqr75nkv" path="res://assets/models/dungeon/stairs/stairs.gltf" id="1_ehiag"]
+[ext_resource type="PackedScene" uid="uid://djmsg3jscehex" path="res://assets/models/dungeon/stairs/stairs_long.gltf" id="2_35uk6"]
+[ext_resource type="PackedScene" uid="uid://bakmfmy4c65lq" path="res://assets/models/dungeon/stairs/stairs_long_modular_center.gltf" id="3_dfbbx"]
+[ext_resource type="PackedScene" uid="uid://de4yh3gt2r7xg" path="res://assets/models/dungeon/stairs/stairs_long_modular_left.gltf" id="4_qyqo0"]
+[ext_resource type="PackedScene" uid="uid://cmmeats6txitr" path="res://assets/models/dungeon/stairs/stairs_long_modular_right.gltf" id="5_da6mf"]
+[ext_resource type="PackedScene" uid="uid://iga8hax6q6q4" path="res://assets/models/dungeon/stairs/stairs_modular_center.gltf" id="6_4i0xb"]
+[ext_resource type="PackedScene" uid="uid://cgs3dgnii82mm" path="res://assets/models/dungeon/stairs/stairs_modular_left.gltf" id="7_1wkef"]
+[ext_resource type="PackedScene" uid="uid://cat5u37o8f562" path="res://assets/models/dungeon/stairs/stairs_modular_right.gltf" id="8_gfgca"]
+[ext_resource type="PackedScene" uid="uid://csvy5bbq7edr" path="res://assets/models/dungeon/stairs/stairs_narrow.gltf" id="9_putip"]
+[ext_resource type="PackedScene" uid="uid://c4g0lw5dj10ed" path="res://assets/models/dungeon/stairs/stairs_walled.gltf" id="10_jrctc"]
+[ext_resource type="PackedScene" uid="uid://c2f6efcmrjtjs" path="res://assets/models/dungeon/stairs/stairs_wall_left.gltf" id="11_huw2j"]
+[ext_resource type="PackedScene" uid="uid://umdo4q3i8gn5" path="res://assets/models/dungeon/stairs/stairs_wall_right.gltf" id="12_7cro0"]
+[ext_resource type="PackedScene" uid="uid://b42psk8cntt3v" path="res://assets/models/dungeon/stairs/stairs_wide.gltf" id="13_sc783"]
+[ext_resource type="PackedScene" uid="uid://dwaqubdfxnb6m" path="res://assets/models/dungeon/stairs/stairs_wood.gltf" id="14_5d035"]
+[ext_resource type="PackedScene" uid="uid://cbqfu22ns81su" path="res://assets/models/dungeon/stairs/stairs_wood_decorated.gltf" id="15_jll17"]
+
+[node name="StairMap" type="Node3D" unique_id=1052489344]
+
+[node name="stairs2" parent="." unique_id=681334680 instance=ExtResource("1_ehiag")]
+
+[node name="stairs_long2" parent="." unique_id=30075940 instance=ExtResource("2_35uk6")]
+
+[node name="stairs_long_modular_center2" parent="." unique_id=118540873 instance=ExtResource("3_dfbbx")]
+
+[node name="stairs_long_modular_left2" parent="." unique_id=1088351047 instance=ExtResource("4_qyqo0")]
+
+[node name="stairs_long_modular_right2" parent="." unique_id=193420107 instance=ExtResource("5_da6mf")]
+
+[node name="stairs_modular_center2" parent="." unique_id=2114152069 instance=ExtResource("6_4i0xb")]
+
+[node name="stairs_modular_left2" parent="." unique_id=554412429 instance=ExtResource("7_1wkef")]
+
+[node name="stairs_modular_right2" parent="." unique_id=1403746171 instance=ExtResource("8_gfgca")]
+
+[node name="stairs_narrow2" parent="." unique_id=559526295 instance=ExtResource("9_putip")]
+
+[node name="stairs_walled2" parent="." unique_id=842658513 instance=ExtResource("10_jrctc")]
+
+[node name="stairs_wall_left2" parent="." unique_id=1597815175 instance=ExtResource("11_huw2j")]
+
+[node name="stairs_wall_right2" parent="." unique_id=1268652941 instance=ExtResource("12_7cro0")]
+
+[node name="stairs_wide2" parent="." unique_id=1623374438 instance=ExtResource("13_sc783")]
+
+[node name="stairs_wood2" parent="." unique_id=157589274 instance=ExtResource("14_5d035")]
+
+[node name="stairs_wood_decorated2" parent="." unique_id=1159413978 instance=ExtResource("15_jll17")]

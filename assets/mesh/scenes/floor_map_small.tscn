@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://bfmcwp5i0f6ff"]
+
+[ext_resource type="PackedScene" uid="uid://cft7pk4ssevnp" path="res://assets/models/dungeon/floor_small/floor_dirt_small_A.gltf" id="1_dx3ir"]
+[ext_resource type="PackedScene" uid="uid://bkp0hdpd2thnl" path="res://assets/models/dungeon/floor_small/floor_dirt_small_B.gltf" id="2_vsojv"]
+[ext_resource type="PackedScene" uid="uid://viwlkr2gu2jc" path="res://assets/models/dungeon/floor_small/floor_dirt_small_C.gltf" id="3_o22ri"]
+[ext_resource type="PackedScene" uid="uid://bnmrekktxsc8n" path="res://assets/models/dungeon/floor_small/floor_dirt_small_corner.gltf" id="4_18bfc"]
+[ext_resource type="PackedScene" uid="uid://v6nx8guapytt" path="res://assets/models/dungeon/floor_small/floor_dirt_small_D.gltf" id="5_y12tj"]
+[ext_resource type="PackedScene" uid="uid://bbhg5yyq30mom" path="res://assets/models/dungeon/floor_small/floor_dirt_small_weeds.gltf" id="6_grrw5"]
+[ext_resource type="PackedScene" uid="uid://8vfq7mqyke7n" path="res://assets/models/dungeon/floor_small/floor_foundation_allsides.gltf" id="7_fhbha"]
+[ext_resource type="PackedScene" uid="uid://b4yvwlqqibfyf" path="res://assets/models/dungeon/floor_small/floor_foundation_corner.gltf" id="8_mlbc1"]
+[ext_resource type="PackedScene" uid="uid://cnrj61uoyjt8b" path="res://assets/models/dungeon/floor_small/floor_foundation_diagonal_corner.gltf" id="9_0j4ln"]
+[ext_resource type="PackedScene" uid="uid://2pt61eplvy24" path="res://assets/models/dungeon/floor_small/floor_foundation_front.gltf" id="10_gym4k"]
+[ext_resource type="PackedScene" uid="uid://br6sqp1orh1wm" path="res://assets/models/dungeon/floor_small/floor_foundation_front_and_back.gltf" id="11_mc45a"]
+[ext_resource type="PackedScene" uid="uid://cc4ktmbysgkrj" path="res://assets/models/dungeon/floor_small/floor_foundation_front_and_sides.gltf" id="12_mmkgq"]
+[ext_resource type="PackedScene" uid="uid://b4yulnk34op5k" path="res://assets/models/dungeon/floor_small/floor_tile_small.gltf" id="13_3bk46"]
+[ext_resource type="PackedScene" uid="uid://p4cmkjyq80sa" path="res://assets/models/dungeon/floor_small/floor_tile_small_broken_A.gltf" id="14_0ende"]
+[ext_resource type="PackedScene" uid="uid://u6tcy52c13as" path="res://assets/models/dungeon/floor_small/floor_tile_small_broken_B.gltf" id="15_il8lv"]
+[ext_resource type="PackedScene" uid="uid://by1wdlyr2k0hn" path="res://assets/models/dungeon/floor_small/floor_tile_small_corner.gltf" id="16_a3k0q"]
+[ext_resource type="PackedScene" uid="uid://cf7kl1w67yjok" path="res://assets/models/dungeon/floor_small/floor_tile_small_decorated.gltf" id="17_tpasx"]
+[ext_resource type="PackedScene" uid="uid://bd8s6ctdv4v3i" path="res://assets/models/dungeon/floor_small/floor_tile_small_weeds_A.gltf" id="18_p46v5"]
+[ext_resource type="PackedScene" uid="uid://efiuo1wspyit" path="res://assets/models/dungeon/floor_small/floor_tile_small_weeds_B.gltf" id="19_mjmn8"]
+[ext_resource type="PackedScene" uid="uid://dpfvhif7rdlkr" path="res://assets/models/dungeon/floor_small/floor_wood_small.gltf" id="20_hi74q"]
+[ext_resource type="PackedScene" uid="uid://4vwcth6suok" path="res://assets/models/dungeon/floor_small/floor_wood_small_dark.gltf" id="21_4xmco"]
+
+[node name="FloorMapSmall" type="Node3D" unique_id=1880448186]
+
+[node name="floor_dirt_small_A2" parent="." unique_id=1604670608 instance=ExtResource("1_dx3ir")]
+
+[node name="floor_dirt_small_B2" parent="." unique_id=452715903 instance=ExtResource("2_vsojv")]
+
+[node name="floor_dirt_small_C2" parent="." unique_id=1533371437 instance=ExtResource("3_o22ri")]
+
+[node name="floor_dirt_small_corner2" parent="." unique_id=622329576 instance=ExtResource("4_18bfc")]
+
+[node name="floor_dirt_small_D2" parent="." unique_id=1694861494 instance=ExtResource("5_y12tj")]
+
+[node name="floor_dirt_small_weeds2" parent="." unique_id=1297600270 instance=ExtResource("6_grrw5")]
+
+[node name="floor_foundation_allsides2" parent="." unique_id=1421306667 instance=ExtResource("7_fhbha")]
+
+[node name="floor_foundation_corner2" parent="." unique_id=602107003 instance=ExtResource("8_mlbc1")]
+
+[node name="floor_foundation_diagonal_corner2" parent="." unique_id=815684875 instance=ExtResource("9_0j4ln")]
+
+[node name="floor_foundation_front2" parent="." unique_id=1796604847 instance=ExtResource("10_gym4k")]
+
+[node name="floor_foundation_front_and_back2" parent="." unique_id=1108502857 instance=ExtResource("11_mc45a")]
+
+[node name="floor_foundation_front_and_sides2" parent="." unique_id=203754774 instance=ExtResource("12_mmkgq")]
+
+[node name="floor_tile_small2" parent="." unique_id=1073901978 instance=ExtResource("13_3bk46")]
+
+[node name="floor_tile_small_broken_A2" parent="." unique_id=862573156 instance=ExtResource("14_0ende")]
+
+[node name="floor_tile_small_broken_B2" parent="." unique_id=1405115450 instance=ExtResource("15_il8lv")]
+
+[node name="floor_tile_small_corner2" parent="." unique_id=1818777150 instance=ExtResource("16_a3k0q")]
+
+[node name="floor_tile_small_decorated2" parent="." unique_id=1990357493 instance=ExtResource("17_tpasx")]
+
+[node name="floor_tile_small_weeds_A2" parent="." unique_id=1703248709 instance=ExtResource("18_p46v5")]
+
+[node name="floor_tile_small_weeds_B2" parent="." unique_id=434105617 instance=ExtResource("19_mjmn8")]
+
+[node name="floor_wood_small2" parent="." unique_id=1868865252 instance=ExtResource("20_hi74q")]
+
+[node name="floor_wood_small_dark2" parent="." unique_id=1434683969 instance=ExtResource("21_4xmco")]
