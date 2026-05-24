@@ -1,0 +1,12 @@
+[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.3-blue?style=plastic&logo=godotengine)](https://godotengine.org/)
+
+# Dungeon Delvers #
+A 3D RPG using Godot.
+
+# Assets #
+The following assets were used in the making of this game.
+
+## 3D Models ##
+
+### Environment ###
+[Dungeon Remastered](https://kaylousberg.itch.io/kaykit-dungeon-remastered) by [Kay Lousberg](https://kaylousberg.com/) ([Pateron](https://www.patreon.com/kaylousberg))
